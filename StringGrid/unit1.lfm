@@ -1,0 +1,72 @@
+object Form1: TForm1
+  Left = 226
+  Height = 471
+  Top = 72
+  Width = 753
+  HorzScrollBar.Page = 632
+  HorzScrollBar.Range = 632
+  VertScrollBar.Page = 283
+  VertScrollBar.Range = 283
+  Caption = 'Form1'
+  ClientHeight = 471
+  ClientWidth = 753
+  LCLVersion = '1.8.4.0'
+  object Button1: TButton
+    Left = 16
+    Height = 48
+    Top = 408
+    Width = 160
+    Caption = 'Ввод Матрицы'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 216
+    Height = 48
+    Top = 408
+    Width = 160
+    Caption = 'Влево'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 408
+    Height = 48
+    Top = 408
+    Width = 160
+    Caption = 'Вправо'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 624
+    Height = 24
+    Top = 432
+    Width = 104
+    Caption = 'Закрыть'
+    OnClick = Button4Click
+    TabOrder = 3
+  end
+  object StringGrid1: TStringGrid
+    Left = 8
+    Height = 360
+    Top = 8
+    Width = 360
+    FixedCols = 0
+    FixedRows = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
+    ScrollBars = ssNone
+    TabOrder = 4
+  end
+  object StringGrid2: TStringGrid
+    Left = 384
+    Height = 360
+    Top = 8
+    Width = 360
+    FixedCols = 0
+    FixedRows = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
+    ScrollBars = ssNone
+    TabOrder = 5
+  end
+end
