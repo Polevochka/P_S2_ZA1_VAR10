@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectSession>
-    <Version Value="10"/>
+    <Version Value="11"/>
     <BuildModes Active="Default"/>
     <Units Count="4">
       <Unit0>
@@ -19,8 +19,6 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="148"/>
-        <CursorPos X="3" Y="173"/>
         <UsageCount Value="29"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -30,8 +28,6 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="Unit2"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="6"/>
-        <CursorPos Y="24"/>
         <UsageCount Value="29"/>
         <Loaded Value="True"/>
       </Unit2>
@@ -166,5 +162,9 @@
         <Caret Line="136" TopLine="103"/>
       </Position30>
     </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
   </ProjectSession>
 </CONFIG>
